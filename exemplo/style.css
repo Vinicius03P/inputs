@@ -1,0 +1,33 @@
+*{padding:0;
+    margin:0;
+    outline:0;
+    box-sizing:border-box;
+    }
+html,body{font-size:62.5%;
+    font-family:'times new...', times serif;
+    text-rendering:optimizelegibility;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+}
+input{
+    width: 15rem;
+}
+#botao{
+    font-size: 0.5rem;
+    width: 5rem;
+}
+h1{
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+label{
+    margin-top: 1rem;
+}
